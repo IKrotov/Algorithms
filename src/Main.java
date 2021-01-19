@@ -10,5 +10,13 @@ public class Main {
 
         SelectionSort selectionSort = new SelectionSort();
         System.out.println(Arrays.toString(selectionSort.sort(test)));
+
+        int[] testSorted = bobbleSort.sort(test);
+
+        BinarySearch binarySearch = new BinarySearch();
+
+        System.out.println(binarySearch.search(testSorted, 6));
+
+        System.out.println(binarySearch.recursionSearch(testSorted, 10, 0, testSorted.length));
     }
 }
