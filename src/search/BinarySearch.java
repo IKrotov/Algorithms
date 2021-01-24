@@ -1,3 +1,5 @@
+package search;
+
 public class BinarySearch {
 
     public int search(int[] inputArr, int x){

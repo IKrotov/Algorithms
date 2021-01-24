@@ -1,3 +1,8 @@
+import search.BinarySearch;
+import sort.BobbleSort;
+import sort.QuickSort;
+import sort.SelectionSort;
+
 import java.util.Arrays;
 
 public class Main {
@@ -18,5 +23,9 @@ public class Main {
         System.out.println(binarySearch.search(testSorted, 6));
 
         System.out.println(binarySearch.recursionSearch(testSorted, 10, 0, testSorted.length));
+
+        QuickSort quickSort = new QuickSort();
+
+        System.out.println(Arrays.toString(quickSort.sort(test, 0, test.length - 1)));
     }
 }

@@ -1,3 +1,5 @@
+package sort;
+
 public class BobbleSort{
 
     public int[] sort(int[] inputArr){
